@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mis Notas</string>
+    <string name="sin_t_tulo">Sin título</string>
+    <string name="fecha_lorem_ipsum">01/01/2022 12:00PM</string>
+    <string name="t_tulo">Título</string>
+    <string name="descripci_n">Descripción</string>
+</resources>

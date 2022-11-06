@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AddNoteActivity"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    style="@style/Theme.MisNotas">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/note_title"
+        android:hint="@string/t_tulo"
+        android:gravity="center_vertical"
+        android:autofillHints=""
+        android:inputType="text"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:met_baseColor="@color/text"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="20"
+        app:met_errorColor="#CF0000"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/note_text"
+        android:hint="@string/descripci_n"
+        android:gravity=""
+        android:scrollbars="vertical"
+        android:inputType="textMultiLine"
+        android:autofillHints=""
+        android:textSize="16sp"
+        app:met_baseColor="@color/text"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="500"
+        app:met_errorColor="#CF0000"/>
+
+</LinearLayout>
